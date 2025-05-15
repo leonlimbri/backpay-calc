@@ -1,7 +1,7 @@
 from utils import *
 import streamlit as st
 import pandas as pd
-import json, chardet, io
+import json, io, datetime
 
 # Simple streamlit app for backpay calculation
 st.set_page_config(page_title="Backpay Calculator", page_icon="🩺")
@@ -46,7 +46,7 @@ with st.expander("Uploaded Timesheets", expanded=True):
 df_timesheet=pd.DataFrame()
 for file in files:
     bytes_data=file.read()
-    _df=pd.read_csv(io.BytesIO(bytes_data), encoding=chardet.detect(bytes_data)['encoding'])
+    _df=pd.read_csv(io.BytesIO(bytes_data), encoding="utf-16 le")
     df_timesheet=pd.concat([df_timesheet, _df]).reset_index(drop=True)
 
 # Calculate backpay

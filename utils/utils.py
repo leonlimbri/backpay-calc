@@ -1,5 +1,4 @@
 import pandas as pd
-import datetime
 
 on_calls_code=["On Call MF", "On Call WE", "OnCall PH"]
 q_notifiers=["Weekdays", "Saturdays", "Sundays", "Weekday Public Holidays", "Weekend Public Holidays"]
