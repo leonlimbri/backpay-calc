@@ -1,0 +1,30 @@
+[
+    {
+        "start_date": "2024-05-17",
+        "weekday": 77.2,
+        "saturday": 115.8,
+        "sunday": 135.1,
+        "weekend_pubhol": 202.7
+    },
+    {
+        "start_date": "2024-06-15",
+        "weekday": 79.5,
+        "saturday": 119.3,
+        "sunday": 139.2,
+        "weekend_pubhol": 208.8
+    },
+    {
+        "start_date": "2024-07-01",
+        "weekday": 81.0,
+        "saturday": 121.6,
+        "sunday": 141.9,
+        "weekend_pubhol": 212.9
+    },
+    {
+        "start_date": "2025-05-12",
+        "weekday": 83.4,
+        "saturday": 125.2,
+        "sunday": 146.2,
+        "weekend_pubhol": 219.3
+    }
+]
