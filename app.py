@@ -2,7 +2,6 @@ from utils import *
 import streamlit as st
 import pandas as pd
 import json, io, datetime
-from streamlit_card import card
 
 # Simple streamlit app for backpay calculation
 st.set_page_config(page_title="Backpay Calculator", page_icon="🩺")
@@ -106,7 +105,6 @@ if st.button("Calculate"):
                 )
                 st.subheader(f"${content}")
                 st.caption(content_tit)
-                # cards.append(c.write(card(title=f"${content}", text=content_tit, styles={"card": {"width": "100%"}})))
         
         for _card in cards:
             if _card:
