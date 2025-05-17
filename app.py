@@ -4,7 +4,7 @@ import pandas as pd
 import json, io, datetime
 
 # Simple streamlit app for backpay calculation
-st.set_page_config(page_title="Backpay Calculator", page_icon="🩺")
+st.set_page_config(page_title="Backpay Calculator", page_icon="🩺", layout="wide")
 st.title("On-Call Allowances Backpay Calculator")
 
 # Find how many different rates level needed? Initially has to be 3
