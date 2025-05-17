@@ -32,7 +32,7 @@ with left:
                     format="$%.2f",
                 )
                 for col, lab in zip([col for col in df_rate.columns if col!="start_date"], all_cols)
-            } | {"start_date": st.column_config.DateColumn("Start Date", format="DD MMM YYYY")},
+            } | {"start_date": st.column_config.DateColumn("Start Date", format="D MMM YYYY")},
             num_rows="dynamic"
         )
 
